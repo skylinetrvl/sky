@@ -29,12 +29,14 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     document.documentElement.lang = language;
   }, [language]);
 
-  const value = {
-    language,
-    setLanguage,
-    t: translations[language],
-    dir: language === "ar" ? "rtl" : "ltr" as const,
-  };
+  const dir: "ltr" | "rtl" = language === "ar" ? "rtl" : "ltr";
+
+const value: LanguageContextType = {
+  language,
+  setLanguage,
+  t: translations[language],
+  dir,
+};
 
   return (
     <LanguageContext.Provider value={value}>
