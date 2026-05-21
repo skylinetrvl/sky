@@ -13,7 +13,7 @@ const slides = [
     id: 1,
     image: "/images/mecca.jpg",
     titleEn: "Umrah Packages",
-    titleAr: "باقات العمرة",
+    titleAr: "باقات العمرات ااا",
     subtitleEn: "Experience the spiritual journey of a lifetime to the Holy Land",
     subtitleAr: "عش رحلة روحانية لا تُنسى إلى الأراضي المقدسة",
   },
