@@ -9,7 +9,9 @@ const services = [
   {
     key: "flight" as const,
     icon: Plane,
-    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&q=80",
+ 
+
+background-image: url(https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&q=80);
   },
   {
     key: "hotel" as const,
