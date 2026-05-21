@@ -1,0 +1,12 @@
+1:"$Sreact.fragment"
+2:I[14671,["/_next/static/chunks/16ik67v-x4v2v.js","/_next/static/chunks/0xs8ni7jz0o1p.js","/_next/static/chunks/0d41ip3b~adfk.js"],"LanguageProvider"]
+3:I[13293,["/_next/static/chunks/16ik67v-x4v2v.js","/_next/static/chunks/0xs8ni7jz0o1p.js","/_next/static/chunks/0d41ip3b~adfk.js"],"Header"]
+4:I[60379,["/_next/static/chunks/16ik67v-x4v2v.js","/_next/static/chunks/0xs8ni7jz0o1p.js","/_next/static/chunks/0d41ip3b~adfk.js"],"default"]
+5:I[44345,["/_next/static/chunks/16ik67v-x4v2v.js","/_next/static/chunks/0xs8ni7jz0o1p.js","/_next/static/chunks/0d41ip3b~adfk.js"],"default"]
+6:I[36768,["/_next/static/chunks/16ik67v-x4v2v.js","/_next/static/chunks/0xs8ni7jz0o1p.js","/_next/static/chunks/0d41ip3b~adfk.js","/_next/static/chunks/08kvooa8o9e27.js"],"default"]
+7:I[76841,["/_next/static/chunks/16ik67v-x4v2v.js","/_next/static/chunks/0xs8ni7jz0o1p.js","/_next/static/chunks/0d41ip3b~adfk.js"],"Footer"]
+8:I[2291,["/_next/static/chunks/16ik67v-x4v2v.js","/_next/static/chunks/0xs8ni7jz0o1p.js","/_next/static/chunks/0d41ip3b~adfk.js"],"WhatsAppButton"]
+9:I[56680,["/_next/static/chunks/16ik67v-x4v2v.js","/_next/static/chunks/0xs8ni7jz0o1p.js","/_next/static/chunks/0d41ip3b~adfk.js"],"Analytics"]
+:HL["/_next/static/chunks/0~zwqczldmd16.css","style"]
+:HL["/_next/static/chunks/0dkfajh3f7h5o.css","style"]
+0:{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0~zwqczldmd16.css","precedence":"next"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/0dkfajh3f7h5o.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/16ik67v-x4v2v.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0xs8ni7jz0o1p.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/0d41ip3b~adfk.js","async":true}]],["$","html",null,{"lang":"en","className":"bg-background","children":["$","body",null,{"className":"geist_dd5f33c6-module__WggDGG__variable geist_mono_d6617093-module__z61v7q__variable playfair_display_dc3b86c2-module__wRxeBG__variable noto_sans_arabic_82fb6294-module__pnKwka__variable font-sans antialiased","children":[["$","$L2",null,{"children":[["$","$L3",null,{}],["$","main",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}],"notFound":[["$","$L6",null,{}],[]]}]}],["$","$L7",null,{}],["$","$L8",null,{}]]}],["$","$L9",null,{}]]}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"0zqAAhdMOPXCK1nEViLpi"}
