@@ -3,15 +3,14 @@
 import { useLanguage } from "@/components/language-context";
 import { Plane, Hotel, FileText, MapPin, Ship, Moon } from "lucide-react";
 import Link from "next/link";
-import Image from "next/image";
 
 const services = [
   {
     key: "flight" as const,
     icon: Plane,
- 
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&q=80",
 
-background-image: url(https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&q=80);
+
   },
   {
     key: "hotel" as const,
@@ -71,13 +70,11 @@ export function ServicesSection() {
                 <div className="bg-card rounded-2xl overflow-hidden h-full border border-border hover:border-primary/50 hover:shadow-2xl transition-all duration-500 hover:-translate-y-2">
                   {/* Image */}
                   <div className="relative h-48 overflow-hidden">
-                    <Image
-                      src={service.image}
-                      alt={serviceData.title}
-                      fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-110"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
+                    <img
+  src={service.image}
+  alt={serviceData.title}
+  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+/>                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
                     <div className="absolute bottom-4 left-4 w-14 h-14 rounded-xl bg-primary flex items-center justify-center shadow-lg">
                       <Icon className="w-7 h-7 text-primary-foreground" />
                     </div>
