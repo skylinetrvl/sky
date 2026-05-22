@@ -40,7 +40,7 @@ export function Header() {
       }`}
     >
       <div className="container mx-auto px-4">
-<div className="flex items-center justify-between h-24 pb-2">
+<div className="flex items-center justify-between h-24 pb-4">
           {/* Logo */}
           <Link href="/" className="flex items-center">
            <img
