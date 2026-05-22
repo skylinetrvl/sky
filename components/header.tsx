@@ -51,7 +51,7 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
+          <nav className="hidden lg:flex items-center gap-8 translate-y-4">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
