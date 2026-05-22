@@ -46,12 +46,12 @@ export function Header() {
            <img
   src="/images/logo.png"
   alt="Skyline Travel Agency"
-  className="h-24 w-auto object-contain"
+  className="h-24 w-auto object-contain translate-y-2"
 />
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
+         <nav className="hidden lg:flex items-center gap-3 bg-white/75 backdrop-blur-md rounded-full px-6 py-3 shadow-sm border border-white/60">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
