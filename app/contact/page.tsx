@@ -82,7 +82,7 @@ if (!result.success) {
   ];
 
   return (
-    <div className="pt-20">
+    <div className="pt-34">
       {/* Hero Section */}
       <section className="relative py-24 bg-foreground text-background overflow-hidden">
         <div className="absolute inset-0 opacity-10">
