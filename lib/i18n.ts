@@ -6,7 +6,7 @@ export const translations = {
       about: "About Us",
       services: "Services",
       destinations: "Destinations",
-      contact: "Contact",
+      contact: "Umrah Packages",
     },
     // Hero
     hero: {
@@ -53,7 +53,7 @@ export const translations = {
       },
       umrah: {
         title: "Umrah Packages",
-        description: "Complete Umrah packages with flights, hotels, and guided services.",
+        description: "Complete Umrah packages with Umrah Visa, flights, hotels, and guided services.",
       },
       cruise: {
         title: "Cruise Packages",

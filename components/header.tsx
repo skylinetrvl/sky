@@ -115,7 +115,7 @@ export function Header() {
                   {link.label}
                 </Link>
               ))}
-              <Link href="tel:+14373434048" className="mt-4">
+<Link href="/contact" className="hidden md:flex">
                 <Button variant="default" className="w-full bg-primary text-primary-foreground hover:bg-primary/90 gap-2">
                   <Phone className="w-4 h-4" />
                   +1 437 343 4048

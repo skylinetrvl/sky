@@ -21,8 +21,27 @@ export default function ContactPage() {
     setIsSubmitting(true);
     
     // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
-    
+const response = await fetch("https://api.web3forms.com/submit", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    Accept: "application/json",
+  },
+  body: JSON.stringify({
+    access_key: "7d304cca-3927-4a54-9bc8-8d82072b235f",
+    name: formData.name,
+    email: formData.email,
+    phone: formData.phone,
+    message: formData.message,
+    subject: "New message from Skyline website",
+  }),
+});
+
+const result = await response.json();
+
+if (!result.success) {
+  throw new Error("Message failed");
+}    
     setIsSubmitting(false);
     setSubmitted(true);
     setFormData({ name: "", email: "", phone: "", message: "" });
