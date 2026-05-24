@@ -72,7 +72,7 @@ export default function ServicesPage() {
   const { t, language } = useLanguage();
 
   return (
-    <div className="pt-20">
+    <div className="pt-26">
       {/* Hero Section */}
       <section className="relative py-24 bg-foreground text-background overflow-hidden">
         <div className="absolute inset-0 opacity-10">
