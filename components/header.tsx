@@ -29,7 +29,6 @@ export function Header() {
     { href: "/services", label: t.nav.services },
     { href: "/Umrahpack", label: t.nav.Umrahpack },
     { href: "/about", label: t.nav.about },
-    { href: "/contact", label: t.nav.contact },
 
   ];
 
@@ -42,7 +41,7 @@ export function Header() {
       }`}
     >
       <div className="container mx-auto px-4">
-<div className="flex items-center justify-between h-24 pb-4">
+<div className="flex items-center justify-between h-32 pb-6">
           {/* Logo */}
           <Link href="/" className="flex items-center">
            <img
