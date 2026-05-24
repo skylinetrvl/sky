@@ -26,9 +26,10 @@ export function Header() {
 
   const navLinks = [
     { href: "/", label: t.nav.home },
-    { href: "/about", label: t.nav.about },
     { href: "/services", label: t.nav.services },
     { href: "/contact", label: t.nav.contact },
+    { href: "/about", label: t.nav.about },
+
   ];
 
   return (
@@ -78,7 +79,7 @@ export function Header() {
             </button>
 
             {/* Contact Button - Desktop */}
-            <Link href="tel:+14373434048" className="hidden md:flex">
+            <Link href="/contact" className="hidden md:flex">
               <Button variant="default" className="bg-primary text-primary-foreground hover:bg-primary/90 gap-2">
                 <Phone className="w-4 h-4" />
                 <span className="hidden xl:inline">+1 437 343 4048</span>
