@@ -41,7 +41,7 @@ export function Header() {
       }`}
     >
       <div className="container mx-auto px-4">
-<div className="flex items-center justify-between h-24 pb-4">
+<div className="flex items-center justify-between h-26 pb-4">
           {/* Logo */}
           <Link href="/" className="flex items-center">
            <img
@@ -79,7 +79,7 @@ export function Header() {
             </button>
 
             {/* Contact Button - Desktop */}
-            <Link href="/contact" className="hidden md:flex">
+            <Link href="/contact" className="mt-4">
               <Button variant="default" className="bg-primary text-primary-foreground hover:bg-primary/90 gap-2">
                 <Phone className="w-4 h-4" />
                 <span className="hidden xl:inline">+1 437 343 4048</span>
