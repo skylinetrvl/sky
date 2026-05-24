@@ -28,8 +28,8 @@ const slides = [
   {
     id: 3,
     image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1920&q=80",
-    titleEn: "Discover Paradise",
-    titleAr: "اكتشف الجنة",
+    titleEn: "Fantabulous Beaches",
+    titleAr: "شواطئ ساحرة",
     subtitleEn: "Escape to stunning beaches and crystal-clear waters",
     subtitleAr: "استمتع بالشواطئ الخلابة والمياه الصافية",
   },
@@ -182,10 +182,6 @@ export function HeroSlider() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 right-8 hidden md:flex flex-col items-center gap-2 text-white/60 text-sm z-10">
-        <span className="writing-vertical-lr rotate-180">{language === "ar" ? "مرر للأسفل" : "Scroll Down"}</span>
-        <div className="w-px h-12 bg-gradient-to-b from-white/60 to-transparent animate-pulse" />
-      </div>
-    </section>
+          </section>
   );
 }
