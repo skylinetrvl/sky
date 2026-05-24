@@ -10,26 +10,28 @@ const services = [
     icon: Plane,
     image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&q=80",
   },
-  {
-    key: "hotel" as const,
-    icon: Hotel,
-    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80",
+ {
+    key: "umrah" as const,
+    icon: Moon,
+    image: "/images/mecca.jpg",
   },
-  {
+{
     key: "visa" as const,
     icon: FileText,
     image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&q=80",
   },
   {
+    key: "hotel" as const,
+    icon: Hotel,
+    image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=600&q=80",
+  },
+  
+  {
     key: "tour" as const,
     icon: MapPin,
     image: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=80",
   },
-  {
-    key: "umrah" as const,
-    icon: Moon,
-    image: "/images/mecca.jpg",
-  },
+ 
   {
     key: "cruise" as const,
     icon: Ship,
