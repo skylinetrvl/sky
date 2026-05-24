@@ -69,7 +69,7 @@ export function Header() {
             {/* Language Toggle */}
             <button
               onClick={toggleLanguage}
-              className="flex items-center gap-2 px-3 py-2 rounded-full bg-secondary hover:bg-secondary/80 transition-colors"
+className="flex items-center gap-2 h-14 px-5 rounded-xl bg-secondary hover:bg-secondary/80 transition-colors translate-y-1"
               aria-label="Toggle language"
             >
               <Globe className="w-4 h-4" />
