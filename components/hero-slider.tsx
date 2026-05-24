@@ -126,7 +126,7 @@ export function HeroSlider() {
                     <Link href="/services">
                       <Button
                         size="lg"
-                        className="bg-primary text-primary-foreground hover:bg-primary/90 gap-2 text-lg px-8 py-6"
+                        className="bg-primary text-primary-foreground hover:bg-primary/50 gap-2 text-lg px-8 py-6"
                       >
                         {t.hero.cta}
                         <ArrowIcon className="w-5 h-5" />
@@ -136,7 +136,7 @@ export function HeroSlider() {
                       <Button
                         size="lg"
                         variant="outline"
-                        className="border-white/50 text-black hover:bg-white/30 text-lg px-8 py-6"
+                        className="border-white/50 text-black hover:bg-white/50 text-lg px-8 py-6"
                       >
                         {t.hero.explore}
                       </Button>
