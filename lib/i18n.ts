@@ -3,10 +3,13 @@ export const translations = {
     // Navigation
     nav: {
       home: "Home",
-      about: "About Us",
       services: "Services",
+           Umrahpack: "Umrah Packages",
       destinations: "Destinations",
-      contact: "Umrah Packages",
+          about: "About Us",
+      contact: "contact us",
+      
+
     },
     // Hero
     hero: {
@@ -110,10 +113,13 @@ export const translations = {
     // Navigation
     nav: {
       home: "الرئيسية",
-      about: "من نحن",
       services: "خدماتنا",
+      Umrahpack: "باقات العمرة",
       destinations: "الوجهات",
+      about: "من نحن",
       contact: "تواصل معنا",
+   
+
     },
     // Hero
     hero: {
@@ -126,7 +132,7 @@ export const translations = {
     about: {
       title: "عن سكاي لاين",
       subtitle: "شريكك الموثوق للسفر",
-      description: "سكاي لاين هي وكالة سفر رائدة مقرها في ميسيساغا، أونتاريو. نحن متخصصون في خلق تجارب سفر لا تُنسى مصممة خصيصاً لأحلامك. بسنوات من الخبرة والشغف بالتميز، نحول تطلعاتك في السفر إلى حقيقة.",
+      description: "سكاي لاين هي وكالة سفر رائدة مقرها في ميسيساغا، أونتاريو. نحن متخصصون في خلق تجارب سفر لا تُنسى مصممة خصيصاً لك. بسنوات من الخبرة والشغف بالتميز، نحول تطلعاتك في السفر إلى حقيقة.",
       mission: "مهمتنا",
       missionText: "تقديم خدمات سفر استثنائية تفوق التوقعات، وخلق ذكريات تدوم مدى الحياة.",
       vision: "رؤيتنا",
@@ -169,7 +175,7 @@ export const translations = {
     },
     // Destinations
     destinations: {
-      title: "الوجهات الشائعة",
+      title: "الوجهات الاكثر طلباً",
       subtitle: "استكشف العالم",
       viewAll: "عرض جميع الوجهات",
     },
@@ -177,7 +183,7 @@ export const translations = {
     contact: {
       title: "تواصل معنا",
       subtitle: "كن على تواصل",
-      description: "مستعد لتخطيط مغامرتك القادمة؟ تواصل معنا اليوم ودع خبراء السفر لدينا يساعدونك في إنشاء الرحلة المثالية.",
+      description: "مستعد لتخطيط سفرتك القادمة؟ تواصل معنا اليوم ودع خبراء السفر لدينا يساعدونك في إنشاء الرحلة المثالية.",
       form: {
         name: "الاسم الكامل",
         email: "البريد الإلكتروني",
@@ -197,7 +203,7 @@ export const translations = {
     },
     // Footer
     footer: {
-      description: "شريكك الموثوق للسفر لرحلات لا تُنسى حول العالم.",
+      description: "سكاي لاين...شريكك الموثوق للسفر .",
       quickLinks: "روابط سريعة",
       services: "الخدمات",
       contact: "معلومات التواصل",
