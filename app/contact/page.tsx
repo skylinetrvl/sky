@@ -254,7 +254,7 @@ if (!result.success) {
                 </h3>
                 <div className="flex gap-4">
                   <a
-                    href="https://instagram.com/instaaa"
+                    href="https://instagram.com/skyline.travel.ca"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-14 h-14 rounded-xl bg-secondary hover:bg-primary hover:text-primary-foreground flex items-center justify-center transition-all duration-300"
@@ -263,7 +263,7 @@ if (!result.success) {
                     <Instagram className="w-6 h-6" />
                   </a>
                   <a
-                    href="https://facebook.com/faceee"
+                    href="https://facebook.com/skyline.travel.ca"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-14 h-14 rounded-xl bg-secondary hover:bg-primary hover:text-primary-foreground flex items-center justify-center transition-all duration-300"
