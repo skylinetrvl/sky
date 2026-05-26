@@ -2,7 +2,7 @@
 
 import { useLanguage } from "@/components/language-context";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, ArrowLeft, Plane } from "lucide-react";
+import { Plane, Mail, MessageCircle } from "lucide-react";
 import Link from "next/link";
 
 export function CTASection() {
@@ -26,26 +26,41 @@ export function CTASection() {
           <p className="text-lg md:text-xl text-background/70 max-w-2xl mx-auto text-pretty">
             {t.cta.subtitle}
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact">
-              <Button
-                size="lg"
-                className="bg-primary text-primary-foreground hover:bg-primary/90 gap-2 text-lg px-8 py-6"
-              >
-                {t.cta.button}
-                <ArrowIcon className="w-5 h-5" />
-              </Button>
-            </Link>
-            <Link href="tel:+14373434048">
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-background/30 text-background hover:bg-background/10 text-lg px-8 py-6"
-              >
-                +1 437 343 4048
-              </Button>
-            </Link>
-          </div>
+        
+<div className="flex flex-col sm:flex-row gap-4 justify-center">
+
+  {/* WhatsApp Button */}
+  <Link
+    href="https://wa.me/14373434048"
+    target="_blank"
+  >
+    <Button
+      size="lg"
+      className="bg-[#25D366] text-white hover:bg-[#1ebe5d] gap-2 text-lg px-8 py-6"
+    >
+      <MessageCircle className="w-5 h-5" />
+      {language === "ar"
+        ? "تواصل عبر واتساب"
+        : "Chat on WhatsApp"}
+    </Button>
+  </Link>
+
+  {/* Email Button */}
+  <Link href="mailto:info@skylinetrvl.ca">
+    <Button
+      size="lg"
+      variant="outline"
+      className="border-background/30 text-background hover:bg-background/10 gap-2 text-lg px-8 py-6"
+    >
+      <Mail className="w-5 h-5" />
+
+      {language === "ar"
+        ? "تواصل عبر البريد"
+        : "Contact by Email"}
+    </Button>
+  </Link>
+
+</div>
         </div>
       </div>
     </section>
