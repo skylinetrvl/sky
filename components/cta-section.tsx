@@ -49,7 +49,7 @@ export function CTASection() {
     <Button
       size="lg"
       variant="outline"
-      className="border-background/30 text-background hover:bg-background/10 gap-2 text-lg px-8 py-6"
+      className="bg-[#D6C29C] text-black hover:bg-[#CBB48A] gap-2 text-lg px-8 py-6"
     >
       <Mail className="w-5 h-5" />
 
