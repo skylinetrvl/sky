@@ -7,7 +7,7 @@ export default function PrivacyPage() {
 
   if (language === "ar") {
     return (
-      <div className="pt-20">
+      <div className="pt-26">
         {/* Hero */}
         <section className="relative py-24 bg-foreground text-background">
           <div className="container mx-auto px-4">
@@ -171,7 +171,7 @@ export default function PrivacyPage() {
   }
 
   return (
-    <div className="pt-20">
+    <div className="pt-26">
       {/* Hero */}
       <section className="relative py-24 bg-foreground text-background">
         <div className="container mx-auto px-4">
