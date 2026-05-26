@@ -97,7 +97,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-     {/* Coming Soon Section */}
+{/* Coming Soon Section */}
 <section className="py-20 bg-background">
   <div className="container mx-auto px-4">
     <div className="max-w-4xl mx-auto text-center">
@@ -123,31 +123,24 @@ export default function ServicesPage() {
   </div>
 </section>
 
-{/*
-========================================
-OLD SERVICES SECTION
-========================================
 
+      {/* Services List - Hidden for now */}
+{false && (
 <section className="py-20 bg-background">
-  <div className="container mx-auto px-4">
-    <div className="space-y-20">
-      {/*  {servicesData.map((service, index) => {
-        const Icon = service.icon;
-        const serviceData = t.services[service.key];
-        const isEven = index % 2 === 0;
+        <div className="container mx-auto px-4">
+          <div className="space-y-20">
+            {servicesData.map((service, index) => {
+              const Icon = service.icon;
+              const serviceData = t.services[service.key];
+              const isEven = index % 2 === 0;
 
-        return (
-          ...
-        );
-      })} */}
-    </div>
-  </div>
-</section>
-
-========================================
-END OLD SERVICES SECTION
-========================================
-*/}
+              return (
+                <div
+                  key={service.key}
+                  className={`grid lg:grid-cols-2 gap-12 items-center ${
+                    isEven ? "" : "lg:flex-row-reverse"
+                  }`}
+                >
                   {/* Content */}
                   <div className={`space-y-6 ${isEven ? "lg:order-1" : "lg:order-2"}`}>
                     <div className="w-16 h-16 rounded-xl bg-primary/10 flex items-center justify-center">
@@ -193,8 +186,8 @@ END OLD SERVICES SECTION
             })}
           </div>
         </div>
-      </section>
-
+</section>
+)}
       {/* CTA Section */}
       <section className="py-20 bg-secondary">
         <div className="container mx-auto px-4">
