@@ -242,10 +242,10 @@ export default function AboutPage() {
 { name: "Qatar Airways", logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Qatar_Airways_Logo.svg" },
   { name: "Air Canada", domain: "aircanada.com" },
   { name: "EgyptAir", domain: "egyptair.com" },
-  { name: "Royal Jordanian", domain: "rj.com" },
-  { name: "Yemenia", domain: "yemenia.com" },
-  { name: "Flyadeal", domain: "flyadeal.com" },
-  { name: "Saudia", domain: "saudia.com" },
+{ name: "Royal Jordanian", logo: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Royal_Jordanian_logo.svg" },
+{ name: "Yemenia", logo: "https://upload.wikimedia.org/wikipedia/en/5/57/Yemenia_logo.png" },
+{ name: "Flyadeal", logo: "https://upload.wikimedia.org/wikipedia/en/2/27/Flyadeal_logo.svg" },
+{ name: "Saudia", logo: "https://upload.wikimedia.org/wikipedia/commons/5/59/Saudia_Logo.svg" },
   { name: "Emirates", domain: "emirates.com" },
   { name: "Lufthansa", domain: "lufthansa.com" },
   { name: "PIA", domain: "piac.com.pk" },
@@ -258,7 +258,7 @@ export default function AboutPage() {
   { name: "American Airlines", domain: "aa.com" },
   { name: "Delta Air Lines", domain: "delta.com" },
   { name: "Swiss", domain: "swiss.com" },
-  { name: "Porter Airlines", domain: "flyporter.com" },
+{ name: "Porter Airlines", logo: "https://upload.wikimedia.org/wikipedia/en/5/5e/Porter_Airlines_logo.svg" },
 ].map((airline, index) => (
   <div
     key={index}
@@ -267,7 +267,7 @@ export default function AboutPage() {
     <img
   src={airline.logo || `https://www.google.com/s2/favicons?sz=128&domain_url=${airline.domain}`}
   alt={airline.name}
-  className="max-h-14 max-w-[160px] object-contain"
+className="max-h-20 max-w-[190px] object-contain"
 />
     <span className="text-sm font-semibold text-black text-center">
       {airline.name}
