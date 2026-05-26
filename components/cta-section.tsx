@@ -7,7 +7,6 @@ import Link from "next/link";
 
 export function CTASection() {
   const { language, t } = useLanguage();
-  const ArrowIcon = language === "ar" ? ArrowLeft : ArrowRight;
 
   return (
     <section className="py-20 bg-foreground text-background relative overflow-hidden">
