@@ -238,45 +238,39 @@ export default function AboutPage() {
     </div>
 
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
-      {[
-        "Qatar Airways",
-        "Air Canada",
-        "EgyptAir",
-        "Royal Jordanian",
-        "Yemenia",
-        "Flyadeal",
-        "Saudia",
-        "Emirates",
-        "Lufthansa",
-        "PIA",
-        "Turkish Airlines",
-        "British Airways",
-        "KLM",
-        "Air France",
-        "Etihad Airways",
-        "United Airlines",
-        "American Airlines",
-        "Delta Airlines",
-        "Swiss Air",
-        "Porter Airlines",
-      ].map((airline, index) => (
-        <div
-          key={index}
-          className="bg-white rounded-2xl p-6 h-32 flex items-center justify-center shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
-        >
-          <img
-            src={`https://logo.clearbit.com/${airline
-              .toLowerCase()
-              .replace(/\s+/g, "")}.com`}
-            alt={airline}
-            className="max-h-14 object-contain"
-            onError={(e) => {
-              e.currentTarget.src =
-                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg";
-            }}
-          />
-        </div>
-      ))}
+   {[
+  { name: "Qatar Airways", logo: "https://logo.clearbit.com/qatarairways.com" },
+  { name: "Air Canada", logo: "https://logo.clearbit.com/aircanada.com" },
+  { name: "EgyptAir", logo: "https://logo.clearbit.com/egyptair.com" },
+  { name: "Royal Jordanian", logo: "https://logo.clearbit.com/rj.com" },
+  { name: "Yemenia", logo: "https://logo.clearbit.com/yemenia.com" },
+  { name: "Flyadeal", logo: "https://logo.clearbit.com/flyadeal.com" },
+  { name: "Saudia", logo: "https://logo.clearbit.com/saudia.com" },
+  { name: "Emirates", logo: "https://logo.clearbit.com/emirates.com" },
+  { name: "Lufthansa", logo: "https://logo.clearbit.com/lufthansa.com" },
+  { name: "PIA", logo: "https://logo.clearbit.com/piac.com.pk" },
+  { name: "Turkish Airlines", logo: "https://logo.clearbit.com/turkishairlines.com" },
+  { name: "British Airways", logo: "https://logo.clearbit.com/britishairways.com" },
+  { name: "KLM", logo: "https://logo.clearbit.com/klm.com" },
+  { name: "Air France", logo: "https://logo.clearbit.com/airfrance.com" },
+  { name: "Etihad Airways", logo: "https://logo.clearbit.com/etihad.com" },
+  { name: "United Airlines", logo: "https://logo.clearbit.com/united.com" },
+  { name: "American Airlines", logo: "https://logo.clearbit.com/aa.com" },
+  { name: "Delta Air Lines", logo: "https://logo.clearbit.com/delta.com" },
+  { name: "Swiss", logo: "https://logo.clearbit.com/swiss.com" },
+  { name: "Porter Airlines", logo: "https://logo.clearbit.com/flyporter.com" },
+].map((airline, index) => (
+  <div
+    key={index}
+    className="bg-white rounded-2xl p-6 h-32 flex items-center justify-center shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
+  >
+    <img
+      src={airline.logo}
+      alt={airline.name}
+      className="max-h-14 max-w-[160px] object-contain"
+    />
+  </div>
+))}
     </div>
   </div>
 </section>
