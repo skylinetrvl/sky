@@ -273,11 +273,8 @@ export default function AboutPage() {
       {airline.name}
     </span>
   </div>
-<p className="text-center text-muted-foreground mt-12 text-lg">
-  {language === "ar"
-    ? "والكثير من شركات الطيران الأخرى"
-    : "And many other international airlines"}
-</p>
+
+
 ))}
     </div>
   </div>
