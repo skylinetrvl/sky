@@ -239,13 +239,13 @@ export default function AboutPage() {
 
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
    {[
-{ name: "Qatar Airways", domain: "qatarairways.com" },
+{ name: "Qatar Airways", logo: "/images/airlines/qatar.jpeg" },
   { name: "Air Canada", domain: "aircanada.com" },
-  { name: "EgyptAir", domain: "egyptair.com" },
-{ name: "Royal Jordanian", logo: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Royal_Jordanian_logo.svg" },
-{ name: "Yemenia", logo: "https://upload.wikimedia.org/wikipedia/en/5/57/Yemenia_logo.png" },
-{ name: "Flyadeal", logo: "https://upload.wikimedia.org/wikipedia/en/2/27/Flyadeal_logo.svg" },
-{ name: "Saudia", logo: "https://upload.wikimedia.org/wikipedia/commons/5/59/Saudia_Logo.svg" },
+  { name: "EgyptAir", logo: "/images/airlines/egyptair.png" },
+{ name: "Royal Jordanian", logo: "/images/airlines/rj.png" },
+{ name: "Yemenia", logo: "/images/airlines/yemenia.jpeg" },
+{ name: "Flyadeal", logo: "/images/airlines/flyadeal.png" },
+{ name: "Saudia", logo: "/images/airlines/saudia.jpeg" },
   { name: "Emirates", domain: "emirates.com" },
   { name: "Lufthansa", domain: "lufthansa.com" },
   { name: "PIA", domain: "piac.com.pk" },
