@@ -96,6 +96,33 @@ export default function ServicesPage() {
         </div>
       </section>
 
+
+{/* Coming Soon Section */}
+<section className="py-20 bg-background">
+  <div className="container mx-auto px-4">
+    <div className="max-w-4xl mx-auto text-center">
+      <div
+        className="rounded-3xl overflow-hidden mb-10 aspect-[16/9] bg-cover bg-center shadow-2xl"
+        style={{
+          backgroundImage: "url('/images/mecca.jpg')",
+        }}
+      />
+
+      <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
+        {language === "ar"
+          ? "سوف تتوفر باقات العمرة قريباً"
+          : "Umrah Packages Coming Soon"}
+      </h2>
+
+      <p className="text-lg text-muted-foreground">
+        {language === "ar"
+          ? "نعمل حالياً على تجهيز باقات عمرة مميزة بخيارات تناسب جميع الاحتياجات."
+          : "We are currently preparing premium Umrah packages tailored to different needs."}
+      </p>
+    </div>
+  </div>
+</section>
+
       {/* Services List */} {/*
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
@@ -162,30 +189,6 @@ export default function ServicesPage() {
 
 
 
-
-{/* Coming Soon Section */}
-<section className="py-20 bg-background">
-  <div className="container mx-auto px-4">
-    <div className="max-w-4xl mx-auto text-center">
-      <div
-        className="rounded-3xl overflow-hidden mb-10 aspect-[16/9] bg-cover bg-center shadow-2xl"
-        style={{
-          backgroundImage: "url('/images/mecca.jpg')",
-        }}
-      />
-      <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
-        {language === "ar"
-          ? "سوف تتوفر باقات العمرة قريباً"
-          : "Umrah packages will be available soon"}
-      </h2>
-      <p className="text-lg text-muted-foreground">
-        {language === "ar"
-          ? "نعمل حالياً على تجهيز باقات عمرة مميزة بخيارات تناسب مختلف الاحتياجات."
-          : "We are currently preparing special Umrah packages with options tailored to different needs."}
-      </p>
-    </div>
-  </div>
-</section>
 
 
       {/* CTA Section */}
