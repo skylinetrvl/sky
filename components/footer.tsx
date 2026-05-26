@@ -33,7 +33,7 @@ export function Footer() {
   <img
     src="/images/logo.png"
     alt="Skyline"
-    className="h-24 w-auto object-contain"
+    className="h-30 w-auto object-contain"
   />
 </Link>
             <p className="text-background/70 leading-relaxed">
