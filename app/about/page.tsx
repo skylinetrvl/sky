@@ -244,7 +244,7 @@ export default function AboutPage() {
   { name: "EgyptAir", logo: "/images/airlines/egyptair.png" },
 { name: "Royal Jordanian", logo: "/images/airlines/rj.png" },
 { name: "Yemenia", logo: "/images/airlines/yemenia.jpg" },
-{ name: "Fly Aden", logo: "/images/airlines/aden.jpg" },
+{ name: "Fly Aden", logo: "/images/airlines/aden.jpeg" },
 { name: "Saudia", logo: "/images/airlines/saudia.jpg" },
   { name: "Emirates", domain: "emirates.com" },
   { name: "Lufthansa", domain: "lufthansa.com" },
@@ -258,7 +258,7 @@ export default function AboutPage() {
   { name: "American Airlines", domain: "aa.com" },
   { name: "Delta Air Lines", domain: "delta.com" },
   { name: "Swiss", domain: "swiss.com" },
-{ name: "Porter Airlines", logo: "/images/airlines/porter.jpg" },
+{ name: "Porter Airlines", logo: "/images/airlines/porter.png" },
 ].map((airline, index) => (
   <div
     key={index}

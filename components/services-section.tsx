@@ -14,6 +14,7 @@ const services = [
     key: "umrah" as const,
     icon: Moon,
     image: "/images/mecca.jpg",
+ href: "/Umrahpack",
   },
 {
     key: "visa" as const,
