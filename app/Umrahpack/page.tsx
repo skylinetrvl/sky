@@ -131,7 +131,7 @@ OLD SERVICES SECTION
 <section className="py-20 bg-background">
   <div className="container mx-auto px-4">
     <div className="space-y-20">
-      {servicesData.map((service, index) => {
+      {/*  {servicesData.map((service, index) => {
         const Icon = service.icon;
         const serviceData = t.services[service.key];
         const isEven = index % 2 === 0;
@@ -139,7 +139,7 @@ OLD SERVICES SECTION
         return (
           ...
         );
-      })}
+      })} */}
     </div>
   </div>
 </section>
