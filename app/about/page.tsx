@@ -239,7 +239,7 @@ export default function AboutPage() {
 
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
    {[
-{ name: "Qatar Airways", logo: "https://content.airhex.com/content/logos/airlines_QR_350_100_r.png" },
+{ name: "Qatar Airways", domain: "qatarairways.com" },
   { name: "Air Canada", domain: "aircanada.com" },
   { name: "EgyptAir", domain: "egyptair.com" },
 { name: "Royal Jordanian", logo: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Royal_Jordanian_logo.svg" },
