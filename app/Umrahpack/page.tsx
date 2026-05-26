@@ -6,6 +6,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 
+
 const servicesData = [
   {
     key: "flight" as const,
@@ -96,34 +97,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-
-{/* Coming Soon Section */}
-<section className="py-20 bg-background">
-  <div className="container mx-auto px-4">
-    <div className="max-w-4xl mx-auto text-center">
-      <div
-        className="rounded-3xl overflow-hidden mb-10 aspect-[16/9] bg-cover bg-center shadow-2xl"
-        style={{
-          backgroundImage: "url('/images/mecca.jpg')",
-        }}
-      />
-
-      <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-        {language === "ar"
-          ? "سوف تتوفر باقات العمرة قريباً"
-          : "Umrah Packages Coming Soon"}
-      </h2>
-
-      <p className="text-lg text-muted-foreground">
-        {language === "ar"
-          ? "نعمل حالياً على تجهيز باقات عمرة مميزة بخيارات تناسب جميع الاحتياجات."
-          : "We are currently preparing premium Umrah packages tailored to different needs."}
-      </p>
-    </div>
-  </div>
-</section>
-
-      {/* Services List */} {/*
+      {/* Services List */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
           <div className="space-y-20">
@@ -185,11 +159,6 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
-*/}
-
-
-
-
 
       {/* CTA Section */}
       <section className="py-20 bg-secondary">
