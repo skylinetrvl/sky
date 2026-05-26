@@ -265,14 +265,19 @@ export default function AboutPage() {
     className="bg-white rounded-2xl p-6 h-32 flex flex-col items-center justify-center gap-3 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
   >
     <img
-      src={`https://www.google.com/s2/favicons?sz=128&domain_url=${airline.domain}`}
-      alt={airline.name}
-      className="w-14 h-14 object-contain"
-    />
+  src={airline.logo || `https://www.google.com/s2/favicons?sz=128&domain_url=${airline.domain}`}
+  alt={airline.name}
+  className="max-h-14 max-w-[160px] object-contain"
+/>
     <span className="text-sm font-semibold text-black text-center">
       {airline.name}
     </span>
   </div>
+<p className="text-center text-muted-foreground mt-12 text-lg">
+  {language === "ar"
+    ? "والكثير من شركات الطيران الأخرى"
+    : "And many other international airlines"}
+</p>
 ))}
     </div>
   </div>
