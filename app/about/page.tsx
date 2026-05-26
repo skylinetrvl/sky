@@ -239,13 +239,13 @@ export default function AboutPage() {
 
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
    {[
-{ name: "Qatar Airways", logo: "/images/airlines/qatar.jpeg" },
+{ name: "Qatar Airways", logo: "/images/airlines/qatar.jpg" },
   { name: "Air Canada", domain: "aircanada.com" },
   { name: "EgyptAir", logo: "/images/airlines/egyptair.png" },
 { name: "Royal Jordanian", logo: "/images/airlines/rj.png" },
-{ name: "Yemenia", logo: "/images/airlines/yemenia.jpeg" },
-{ name: "Flyadeal", logo: "/images/airlines/flyadeal.png" },
-{ name: "Saudia", logo: "/images/airlines/saudia.jpeg" },
+{ name: "Yemenia", logo: "/images/airlines/yemenia.jpg" },
+{ name: "Fly Aden", logo: "/images/airlines/aden.jpg" },
+{ name: "Saudia", logo: "/images/airlines/saudia.jpg" },
   { name: "Emirates", domain: "emirates.com" },
   { name: "Lufthansa", domain: "lufthansa.com" },
   { name: "PIA", domain: "piac.com.pk" },
@@ -258,7 +258,7 @@ export default function AboutPage() {
   { name: "American Airlines", domain: "aa.com" },
   { name: "Delta Air Lines", domain: "delta.com" },
   { name: "Swiss", domain: "swiss.com" },
-{ name: "Porter Airlines", logo: "https://upload.wikimedia.org/wikipedia/en/5/5e/Porter_Airlines_logo.svg" },
+{ name: "Porter Airlines", logo: "/images/airlines/porter.jpg" },
 ].map((airline, index) => (
   <div
     key={index}
