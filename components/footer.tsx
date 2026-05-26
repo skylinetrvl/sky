@@ -30,11 +30,12 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-6">
             <Link href="/" className="inline-block">
-              <span className="text-3xl font-bold tracking-tight">
-                <span className="text-primary">Sky</span>
-                <span className="text-background">line</span>
-              </span>
-            </Link>
+  <img
+    src="/images/logo.png"
+    alt="Skyline"
+    className="h-24 w-auto object-contain"
+  />
+</Link>
             <p className="text-background/70 leading-relaxed">
               {t.footer.description}
             </p>
