@@ -239,7 +239,7 @@ export default function AboutPage() {
 
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
    {[
-{ name: "Qatar Airways", logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Qatar_Airways_Logo.svg" },
+{ name: "Qatar Airways", logo: "https://content.airhex.com/content/logos/airlines_QR_350_100_r.png" },
   { name: "Air Canada", domain: "aircanada.com" },
   { name: "EgyptAir", domain: "egyptair.com" },
 { name: "Royal Jordanian", logo: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Royal_Jordanian_logo.svg" },
@@ -265,9 +265,13 @@ export default function AboutPage() {
     className="bg-white rounded-2xl p-6 h-32 flex flex-col items-center justify-center gap-3 shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
   >
     <img
-  src={airline.logo || `https://www.google.com/s2/favicons?sz=128&domain_url=${airline.domain}`}
+  src={
+    airline.logo
+      ? airline.logo
+      : `https://www.google.com/s2/favicons?sz=128&domain_url=${airline.domain}`
+  }
   alt={airline.name}
-className="max-h-20 max-w-[190px] object-contain"
+  className="max-h-14 max-w-[160px] object-contain"
 />
     <span className="text-sm font-semibold text-black text-center">
       {airline.name}
