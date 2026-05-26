@@ -239,7 +239,7 @@ export default function AboutPage() {
 
     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
    {[
-  { name: "Qatar Airways", domain: "qatarairways.com" },
+{ name: "Qatar Airways", logo: "https://upload.wikimedia.org/wikipedia/commons/0/08/Qatar_Airways_Logo.svg" },
   { name: "Air Canada", domain: "aircanada.com" },
   { name: "EgyptAir", domain: "egyptair.com" },
   { name: "Royal Jordanian", domain: "rj.com" },
