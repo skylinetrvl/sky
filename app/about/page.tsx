@@ -8,8 +8,8 @@ export default function AboutPage() {
 
   const stats = [
     { icon: Clock, value: "10+", label: t.about.experience },
-    { icon: Users, value: "5000+", label: t.about.clients },
-    { icon: MapPin, value: "100+", label: t.about.destinations },
+    { icon: Users, value: "35000+", label: t.about.clients },
+    { icon: MapPin, value: "180+", label: t.about.destinations },
     { icon: Award, value: "24/7", label: t.about.support },
   ];
 
@@ -47,7 +47,7 @@ export default function AboutPage() {
   const { language } = useLanguage();
 
   return (
-    <div className="pt-20">
+    <div className="pt-26">
       {/* Hero Section */}
       <section className="relative py-24 bg-foreground text-background overflow-hidden">
         <div className="absolute inset-0 opacity-10">
@@ -215,6 +215,71 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+{/* Partners Section */}
+<section className="py-20 bg-secondary overflow-hidden">
+  <div className="container mx-auto px-4">
+    <div className="text-center max-w-3xl mx-auto mb-16">
+      <span className="inline-block text-primary font-semibold mb-4 tracking-wider uppercase text-sm">
+        {language === "ar" ? "الثقة العالمية" : "Global Trust"}
+      </span>
+
+      <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
+        {language === "ar"
+          ? "شركاؤنا في النجاح"
+          : "Our Partners in Success"}
+      </h2>
+
+      <p className="text-muted-foreground text-lg">
+        {language === "ar"
+          ? "نتعاون مع أبرز شركات الطيران العالمية لتقديم أفضل خيارات السفر لعملائنا."
+          : "We collaborate with leading international airlines to provide the best travel experience for our clients."}
+      </p>
+    </div>
+
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center">
+      {[
+        "Qatar Airways",
+        "Air Canada",
+        "EgyptAir",
+        "Royal Jordanian",
+        "Yemenia",
+        "Flyadeal",
+        "Saudia",
+        "Emirates",
+        "Lufthansa",
+        "PIA",
+        "Turkish Airlines",
+        "British Airways",
+        "KLM",
+        "Air France",
+        "Etihad Airways",
+        "United Airlines",
+        "American Airlines",
+        "Delta Airlines",
+        "Swiss Air",
+        "Porter Airlines",
+      ].map((airline, index) => (
+        <div
+          key={index}
+          className="bg-white rounded-2xl p-6 h-32 flex items-center justify-center shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
+        >
+          <img
+            src={`https://logo.clearbit.com/${airline
+              .toLowerCase()
+              .replace(/\s+/g, "")}.com`}
+            alt={airline}
+            className="max-h-14 object-contain"
+            onError={(e) => {
+              e.currentTarget.src =
+                "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg";
+            }}
+          />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
     </div>
   );
 }
