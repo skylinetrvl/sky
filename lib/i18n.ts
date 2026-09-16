@@ -22,7 +22,7 @@ export const translations = {
     about: {
       title: "About Skyline",
       subtitle: "Your Trusted Travel Partner",
-      description: "Skyline is a premier travel agency based in Mississauga, Ontario. We specialize in creating unforgettable travel experiences tailored to your dreams. With years of expertise and a passion for excellence, we turn your travel aspirations into reality.",
+      description: "Skyline International Group is a premier travel agency based in Mississauga, Ontario. We specialize in creating exceptional travel experiences tailored to your needs and aspirations. With extensive expertise and a commitment to excellence, we turn your travel plans into memorable journeys. We are licensed and registered with the Travel Industry Council of Ontario (TICO), registration number 5003642.",
       mission: "Our Mission",
       missionText: "To provide exceptional travel services that exceed expectations, creating memories that last a lifetime.",
       vision: "Our Vision",
@@ -132,11 +132,8 @@ export const translations = {
     about: {
       title: "عن سكاي لاين",
       subtitle: "شريكك الموثوق للسفر",
-      description: `وكالة سكاي لاين الدولية للسفر والسياحة هي وكالة سفر متخصصة مقرها في ميسيساغا – أونتاريو، نقدم حلول سفر متكاملة تجمع بين الاحترافية، الراحة، والأسعار التنافسية. نؤمن بأن كل رحلة هي تجربة استثنائية، لذلك نحرص على تصميم خدماتنا بما يتناسب مع احتياجات عملائنا وتطلعاتهم.
-
-نوفّر خدمات حجوزات الطيران، الفنادق، الباقات السياحية، التأشيرات، ورحلات العمرة، مع اهتمام دقيق بأدق التفاصيل لضمان تجربة سفر سلسة ومميزة من البداية وحتى العودة.
-
-في سكاي لاين، نسعى لبناء علاقات طويلة الأمد مع عملائنا من خلال الموثوقية، الجودة، وخدمة العملاء الراقية.`,
+      description: `مجموعة سكاي لاين الدولية هي وكالة سفر رائدة مقرها مدينة ميسيساغا في أونتاريو. نتخصص في تصميم تجارب سفر استثنائية تلبي احتياجاتكم وتطلعاتكم. وبفضل خبرتنا الواسعة والتزامنا بالتميز، نحوّل خطط سفركم إلى رحلات مميزة لا تُنسى. نحن مرخصون ومسجلون لدى مجلس صناعة السفر في أونتاريو (TICO) برقم تسجيل 5003642.
+`,
 
      mission: "مهمتنا",
       missionText: "تقديم خدمات سفر استثنائية تفوق التوقعات، وخلق ذكريات تدوم مدى الحياة.",
