@@ -45,7 +45,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
            <img
-  src="/images/logo.png"
+  src="/images/logoo.png"
   alt="Skyline Travel Agency"
   className="h-24 w-auto object-contain translate-y-4 "
 />
