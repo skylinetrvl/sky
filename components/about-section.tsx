@@ -7,9 +7,9 @@ export function AboutSection() {
   const { t } = useLanguage();
 
   const stats = [
-    { icon: Clock, value: "10+", label: t.about.experience },
+    { icon: Clock, value: "5+", label: t.about.experience },
     { icon: Users, value: "5000+", label: t.about.clients },
-    { icon: MapPin, value: "100+", label: t.about.destinations },
+    { icon: MapPin, value: "109+", label: t.about.destinations },
     { icon: Award, value: "24/7", label: t.about.support },
   ];
 
