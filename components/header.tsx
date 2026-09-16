@@ -47,7 +47,7 @@ export function Header() {
            <img
   src="/images/logooo.png"
   alt="Skyline Travel Agency"
-  className="h-24 w-auto object-contain translate-y-4 "
+  className="h-24 w-auto object-contain translate-y-2 "
 />
           </Link>
 
