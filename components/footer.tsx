@@ -31,7 +31,7 @@ export function Footer() {
           <div className="space-y-6">
             <Link href="/" className="inline-block">
   <img
-    src="/images/logoo.png"
+    src="/images/logooo.png"
     alt="Skyline"
     className="h-34 w-auto object-contain"
   />
