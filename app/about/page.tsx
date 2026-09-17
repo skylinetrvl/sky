@@ -189,7 +189,7 @@ Business Identification Number (BIN): 1001597725"}
             <div className="bg-card rounded-2xl p-8 border border-border shadow-sm hover:shadow-lg hover:border-primary/50 transition-all text-center flex flex-col items-center justify-center min-h-80">
               <div className="bg-white rounded-xl p-4 mb-6 border border-border">
                 <img
-                  src="/public/images/licenses/tico.png"
+                  src="public/images/licenses/tico.png"
                   alt="Travel Industry Council of Ontario - TICO"
                   className="h-28 md:h-32 w-auto object-contain"
                 />
