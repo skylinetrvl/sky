@@ -2,10 +2,17 @@
 
 import Link from "next/link";
 import { useLanguage } from "@/components/language-context";
-import { MapPin, Phone, Mail, Instagram, Facebook, Clock } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Instagram,
+  Facebook,
+  Clock,
+} from "lucide-react";
 
 export function Footer() {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const currentYear = new Date().getFullYear();
 
   const quickLinks = [
@@ -30,15 +37,17 @@ export function Footer() {
           {/* Company Info */}
           <div className="space-y-6">
             <Link href="/" className="inline-block">
-  <img
-    src="/images/logooo.png"
-    alt="Skyline"
-    className="h-34 w-auto object-contain"
-  />
-</Link>
+              <img
+                src="/images/logooo.png"
+                alt="Skyline International Group"
+                className="h-34 w-auto object-contain"
+              />
+            </Link>
+
             <p className="text-background/70 leading-relaxed">
               {t.footer.description}
             </p>
+
             {/* Social Links */}
             <div className="flex gap-4">
               <a
@@ -50,6 +59,7 @@ export function Footer() {
               >
                 <Instagram className="w-5 h-5" />
               </a>
+
               <a
                 href="https://facebook.com/skyline.travel.ca"
                 target="_blank"
@@ -67,6 +77,7 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-6 text-primary">
               {t.footer.quickLinks}
             </h3>
+
             <ul className="space-y-3">
               {quickLinks.map((link) => (
                 <li key={link.href}>
@@ -86,6 +97,7 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-6 text-primary">
               {t.footer.services}
             </h3>
+
             <ul className="space-y-3">
               {services.map((service, index) => (
                 <li key={index}>
@@ -105,6 +117,7 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-6 text-primary">
               {t.footer.contact}
             </h3>
+
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5 shrink-0" />
@@ -112,6 +125,7 @@ export function Footer() {
                   {t.contact.info.addressValue}
                 </span>
               </li>
+
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                 <a
@@ -121,6 +135,7 @@ export function Footer() {
                   +1 437 343 4048
                 </a>
               </li>
+
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                 <a
@@ -130,6 +145,7 @@ export function Footer() {
                   info@skylinetrvl.ca
                 </a>
               </li>
+
               <li className="flex items-start gap-3">
                 <Clock className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                 <span className="text-background/70">
@@ -141,12 +157,34 @@ export function Footer() {
         </div>
       </div>
 
+      {/* TICO License */}
+      <div className="border-t border-background/10">
+        <div className="container mx-auto px-4 py-8">
+          <div className="flex flex-col items-center justify-center text-center gap-3">
+            <div className="bg-white rounded-xl px-4 py-3 shadow-sm">
+              <img
+                src="/images/licenses/tico.png"
+                alt="Travel Industry Council of Ontario - TICO"
+                className="h-16 md:h-20 w-auto object-contain"
+              />
+            </div>
+
+            <p className="text-background/70 text-sm leading-relaxed">
+              {language === "ar"
+                ? "مرخصون ومسجلون لدى مجلس صناعة السفر في أونتاريو (TICO) برقم 5003642."
+                : "Licensed and registered with the Travel Industry Council of Ontario (TICO), registration No. 5003642."}
+            </p>
+          </div>
+        </div>
+      </div>
+
       {/* Bottom Bar */}
       <div className="border-t border-background/10">
         <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/60 text-sm">
             © {currentYear} Skyline. {t.footer.rights}
           </p>
+
           <div className="flex gap-6">
             <Link
               href="/privacy"
@@ -154,6 +192,7 @@ export function Footer() {
             >
               {t.footer.privacy}
             </Link>
+
             <Link
               href="/terms"
               className="text-background/60 hover:text-primary text-sm transition-colors"
