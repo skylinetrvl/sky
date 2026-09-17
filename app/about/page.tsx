@@ -172,24 +172,20 @@ export default function AboutPage() {
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">
                 {language === "ar"
-                  ? "مجموعة سكاي لاين الدولية  "
-                  : " Skyline International Group"}
+                  ? "مجموعة سكاي لاين الدولية"
+                  : "Skyline International Group"}
               </h3>
               <p className="text-muted-foreground leading-relaxed">
                 {language === "ar"
-                  ? "شركة مرخصة ومتخصصة في تقديم خدمات السفر والطيران، ومسجلة في مقاطعة أونتاريو، كندا.
-
-رقم تعريف الشركة (BIN): 1001597725"
-                  : "A licensed company specializing in air travel and tourism services, registered in the Province of Ontario, Canada.
-
-Business Identification Number (BIN): 1001597725"}
+                  ? "شركة مرخصة ومتخصصة في تقديم خدمات السفر والطيران، ومسجلة في مقاطعة أونتاريو، كندا. رقم تعريف الشركة (BIN): 1001597725."
+                  : "A licensed company specializing in air travel and tourism services, registered in the Province of Ontario, Canada. Business Identification Number (BIN): 1001597725."}
               </p>
             </div>
 
             <div className="bg-card rounded-2xl p-8 border border-border shadow-sm hover:shadow-lg hover:border-primary/50 transition-all text-center flex flex-col items-center justify-center min-h-80">
               <div className="bg-white rounded-xl p-4 mb-6 border border-border">
                 <img
-                  src="public/images/licenses/tico.png"
+                  src="/images/licenses/tico.png"
                   alt="Travel Industry Council of Ontario - TICO"
                   className="h-28 md:h-32 w-auto object-contain"
                 />
