@@ -146,6 +146,63 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Licenses & Accreditations */}
+      <section className="py-20 bg-gradient-to-b from-background via-secondary to-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-3xl mx-auto mb-12">
+            <span className="inline-block text-primary font-semibold mb-4 tracking-wider uppercase text-sm">
+              {language === "ar" ? "الثقة والاعتماد" : "Trust & Accreditation"}
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-5 text-balance">
+              {language === "ar"
+                ? "تراخيص مجموعة سكاي لاين الدولية"
+                : "Skyline International Group Licenses"}
+            </h2>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              {language === "ar"
+                ? "نعمل وفق المتطلبات التنظيمية المعتمدة في مقاطعة أونتاريو لنقدم خدمات سفر موثوقة واحترافية."
+                : "We operate in accordance with Ontario's regulatory requirements to provide trusted and professional travel services."}
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="bg-card rounded-2xl p-8 border border-border shadow-sm hover:shadow-lg hover:border-primary/50 transition-all text-center flex flex-col items-center justify-center min-h-80">
+              <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mb-6">
+                <Award className="w-12 h-12 text-primary" />
+              </div>
+              <h3 className="text-2xl font-bold text-foreground mb-4">
+                {language === "ar"
+                  ? "شركة معتمدة في مقاطعة أونتاريو"
+                  : "Accredited Company in Ontario"}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                {language === "ar"
+                  ? "مجموعة سكاي لاين الدولية شركة مسجلة ومعتمدة للعمل في مقاطعة أونتاريو، كندا."
+                  : "Skyline International Group is registered and accredited to operate in the Province of Ontario, Canada."}
+              </p>
+            </div>
+
+            <div className="bg-card rounded-2xl p-8 border border-border shadow-sm hover:shadow-lg hover:border-primary/50 transition-all text-center flex flex-col items-center justify-center min-h-80">
+              <div className="bg-white rounded-xl p-4 mb-6 border border-border">
+                <img
+                  src="/images/licenses/tico.png"
+                  alt="Travel Industry Council of Ontario - TICO"
+                  className="h-28 md:h-32 w-auto object-contain"
+                />
+              </div>
+              <h3 className="text-2xl font-bold text-foreground mb-3">
+                {language === "ar" ? "مسجلون لدى TICO" : "TICO Registered"}
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                {language === "ar"
+                  ? "مرخصون ومسجلون لدى مجلس صناعة السفر في أونتاريو (TICO) برقم تسجيل 5003642."
+                  : "Licensed and registered with the Travel Industry Council of Ontario (TICO), registration number 5003642."}
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Mission & Vision */}
       <section className="py-20 bg-secondary">
         <div className="container mx-auto px-4">
